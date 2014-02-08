@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="base" template="/WEB-INF/layouts/classic.jsp">
+    <put-attribute name="title" value="Tiles homepage" />
+    <put-attribute name="top-nav" value="/WEB-INF/tiles/top-nav.jsp" />
+    <put-attribute name="main-nav" value="/WEB-INF/tiles/main-nav.jsp" />
+    <put-attribute name="body" value="/WEB-INF/tiles/foo.jsp" />
+  </definition>
+  
+  <definition name="home" extends="base">
+    <put-attribute name="title" value="Spring homepage" />
+    <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+  </definition>  
+</tiles-definitions>
