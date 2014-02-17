@@ -3,8 +3,8 @@
 <p>To edit each individual page, please use HTML tags within .md files.</p>
 <p>Here are the main pages:</p>
 <ul>
-  <li><a href="doc\modules\modules.md">Modules</a></li>
-  <li><a href="doc\database\schema.md">Database Schema</a></li>
-  <li><a href="doc\how-to\github.md">How to use Github</a></li>
-  <li><a href="doc\how-to\questions.md">Questions</a></li>
+  <li><a href="doc/modules/modules.md">Modules</a></li>
+  <li><a href="doc/database/schema.md">Database Schema</a></li>
+  <li><a href="doc/how-to/github.md">How to use Github</a></li>
+  <li><a href="doc/how-to/questions.md">Questions</a></li>
 </ul>
