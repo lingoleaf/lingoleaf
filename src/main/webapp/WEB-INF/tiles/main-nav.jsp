@@ -1,4 +1,4 @@
 <ul>
-  <li><a href="/main-nav/1.html">MainMenu1</a></li>
-  <li><a href="/main-nav/2.html">MainMenu2</a></li>
+  <li><a href="/main-nav/nav1">MainMenu1</a></li>
+  <li><a href="/main-nav/nav2">MainMenu2</a></li>
 </ul>

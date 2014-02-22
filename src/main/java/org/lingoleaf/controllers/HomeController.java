@@ -23,6 +23,18 @@ public class HomeController {
 		return "home";
 	}
 	
-
+	@RequestMapping("/main-nav/nav1")
+	public String showNav1() {
+		System.out.println("MainNav1 is running!");
+		
+		return "nav1";
+	}
+	
+	@RequestMapping("/main-nav/nav2")
+	public String showNav2() {
+		System.out.println("MainNav2 is running!");
+		
+		return "nav2";
+	}
 	
 }

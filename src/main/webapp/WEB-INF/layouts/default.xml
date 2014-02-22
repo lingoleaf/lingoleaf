@@ -14,4 +14,14 @@
     <put-attribute name="title" value="Spring homepage" />
     <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
   </definition>  
+  
+  <definition name="nav1" extends="base">
+    <put-attribute name="title" value="Nav1" />
+    <put-attribute name="body" value="/WEB-INF/views/main-nav/nav1.jsp" />
+  </definition>   
+  
+  <definition name="nav2" extends="base">
+    <put-attribute name="title" value="Nav2" />
+    <put-attribute name="body" value="/WEB-INF/views/main-nav/nav2.jsp" />
+  </definition>    
 </tiles-definitions>
